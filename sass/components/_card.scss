@@ -1,0 +1,137 @@
+.card{
+    //FUNCTIONALITY
+    &_side{
+        background-color: #fff;
+        color:#fff;
+        font-size:2rem;
+        height: 60rem;
+        transition: all 0.2s;
+        display: flexbox;
+        
+        &--front{
+            background-color: white;
+            box-shadow: 0 .5rem 1rem rgba($color: #000000, $alpha: 0.5);
+            
+        }
+
+    }
+    
+
+    &:hover &_side{
+        transform: translateY(-15px);
+        box-shadow: 0 .5rem 1rem rgba($color: #000000, $alpha: 0.5);
+        transform: scale(1.1);
+    }
+    //FONT SIDE STYLING
+    &_picture{
+        background-size: cover;
+        height:37rem;
+
+        &--1{
+            background-image:url(img/briefHistory.jpg);
+
+        }
+
+        &--2{
+            background-image:url(img/book1.jpg);
+
+        }
+
+        &--3{
+            background-image:url(img/book2.jpg);
+
+        }
+
+        &--4{
+            background-image:url(img/book3.jpg);
+
+        }
+
+        &--5{
+            background-image:url(img/book4.jpg);
+
+        }
+
+        &--6{
+            background-image:url(img/book5.jpg);
+
+        }
+
+        &--7{
+            background-image:url(img/book6.jpg);
+
+        }
+
+        &--8{
+            background-image:url(img/book7.jpg);
+
+        }
+
+        &--9{
+            background-image:url(img/book8.jpg);
+
+        }
+
+        &--10{
+            background-image:url(img/book9.jpg);
+
+        }
+
+        
+
+   
+
+    }
+   
+
+    
+
+    
+}
+
+.card_heading{
+    color: gray;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*.card_details{
+    padding: 3rem;
+    ul{
+        list-style: none;
+        width:80%;
+        margin: 0 auto;
+
+        li{
+            text-align:center;
+            font-size:1.5rem;
+            padding:1rem;
+            color: gray;
+
+            &:not(:last-child){
+                border-bottom:1px solid gray;
+            }
+        }
+    }
+}
+*/
+.about-book{
+    margin:auto 0;
+    text-align:center;
+    color: rgb(0, 123, 255);
+    font-size:1.5rem;
+    background-size: cover;
+}  
+
+.price{
+    background-color: goldenrod;
+    color: black;
+    font-weight: 700;
+    padding: 1.2rem;
+    
+    text-align: right;
+    display:block;
+   // margin-left:5rem;
+
+}

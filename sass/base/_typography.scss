@@ -1,0 +1,64 @@
+.heading-primary{
+    color: white;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 40px;
+    
+}
+.heading-primary-main{
+    display: block;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 20px;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+.heading-primary-sub{
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    animation: moveInRight 1s ease-out;
+}
+
+
+.heading-secondary{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-image: linear-gradient(to right, rgb(255, 0, 247),
+    rgb(132, 0, 255));
+    display: inline-block;
+    -webkit-background-clip:text;
+    color: transparent;
+    transition: all .2s;
+    letter-spacing: 2pxs;
+
+    &:hover{
+        transform:skewY(2deg) skewX(15deg) scale(1.05);
+        text-shadow: .5rem 1rem 2rem rgba(0,0,0,0.2);
+    }
+
+}
+
+.heading-tertiary{
+    font-size: 2.6rem ;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+
+.paragraph{
+    font-size: 1.6rem ;
+
+    &:not(:last-child){
+        margin-bottom: 3rem;
+    }
+}
+
+.photo{
+    max-width: 60rem;
+}
+

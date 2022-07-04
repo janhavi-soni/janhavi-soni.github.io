@@ -1,0 +1,81 @@
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all 0.2s;
+    border-style: solid;
+    
+
+
+}
+.btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba($color-black,0.2);
+}
+.btn:active{
+    transform: translateY(0);
+    background-color: blue;
+    color: $color-white;
+
+}
+
+.btn-white{
+    background-color: $color-white;
+    color: $color-grey-dark;
+    font-weight: bold;
+}
+.btn-animated{
+    animation: moveInBottom .5s ease-out 0.75s;
+    animation-fill-mode: backwards;
+}
+.btn-text{
+    &:link,
+    &:visited {
+        font-size: $default-font-size;
+        color: $color-primary;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: 1px solid $color-primary ;
+        padding: 3px;
+        transition: all .2s;
+    }
+
+    &:hover{
+        background-color: $color-primary;
+        color: white;
+        box-shadow: 0 1rem 2rem rgba($color-black,0.15);
+        transform: translateY(-2px);
+    }
+
+    &:active{
+        box-shadow: 0 0.5rem 2rem rgba($color-black,0.15);
+        transform: translateY(0);
+
+    }
+}
+
+.scroll-button{
+    font-size: 1.7rem;
+    color: blue;
+    background-color:#eee;
+    padding: 1.2rem;
+    text-decoration: none;
+    margin-right:1.2rem;
+    text-transform: uppercase;
+    transition: all 0.2s;
+
+    &:hover{
+        background-color: $color-primary;
+        color: white;
+        box-shadow: 0 1rem 2rem rgba($color-black,0.15);
+        transform: translateY(-2px);
+
+    }
+
+    &:active{
+        opacity:0.5;
+    }
+}
