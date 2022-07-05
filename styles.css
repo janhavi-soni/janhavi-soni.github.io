@@ -425,7 +425,7 @@ body {
   width: 100%;
   position: fixed;
   top: 0;
-  z-index: 1000rem;
+  z-index: 999rem;
   /* clip-path: polygon(0 0, 97% 0, 97% 100%,0 100%);*/ }
 
 label.logo {
@@ -568,7 +568,8 @@ nav ul li a {
   background-position: top;
   margin-top: 5rem;
   position: relative;
-  text-align: center; }
+  text-align: center;
+  z-index: 0; }
 
 .logo-box {
   position: absolute;
