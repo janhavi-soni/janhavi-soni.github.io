@@ -5,6 +5,7 @@
     height:8rem;
     width: 100%;
     position: fixed;
+    
     top: 0;
     
     
@@ -17,7 +18,7 @@ label.logo{
     color:white;
     font-size:3.5rem;
     line-height:8rem;
-    padding: 0 10rem;
+    padding: 0 4rem;
 
 }
 
@@ -27,12 +28,13 @@ nav ul{
     text-decoration: none;
     list-style:none;
     z-index: 900;
+    
 }
 
 nav ul li{
     display: inline-block;
     line-height:8rem;
-    margin: 0 5rem;
+    margin: 0 4rem;
 }
 
 nav ul li a{
@@ -67,10 +69,10 @@ nav ul li a{
     display: none;
 }
 */
-@media (max-width: 95.2rem){
+@media (max-width: 9.5rem){
     label.logo{
         font-size: 3rem;
-        padding-left: 5rem;
+        padding-left: 2rem;
 
     }
     nav ul li a{
@@ -96,8 +98,9 @@ nav ul li a{
 
     nav ul li{
         display: block;
-        margin: 5rem 0 ;
+        margin: 4rem 0 ;
         line-height: 3rem;
+        margin-left: -2rem;
 
     }
     nav ul li a{
